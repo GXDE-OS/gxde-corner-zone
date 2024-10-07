@@ -1,0 +1,15 @@
+[package]
+name = "gxde_corner_zone"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+xlib = []
+
+[dependencies]
+structopt = "0.3.26"
+x11 = "2.19.1"
+libc = "0.2.126"
+nix = "0.24.1"
+configparser = "3.0.0"
+dirs = "4.0.0"
